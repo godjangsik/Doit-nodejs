@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>나의 메모</title>
+</head>
+<body>
+	<h1>나의 메모</h1>
+	<br/>
+	<form action="/process/create" method="post" enctype="multipart/form-data">
+		<input type="text" name="name" placeholder="작성자">
+		<input type="text" name="content" placeholder="내용">
+		<input type="file" name="file">
+		<input type="submit" value="저장">
+		<a href="javascript:window.close();">닫기</a>
+	</form>
+</body>
+</html>
